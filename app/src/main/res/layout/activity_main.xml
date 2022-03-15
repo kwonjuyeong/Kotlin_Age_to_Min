@@ -1,21 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/myBackground"
-    android:gravity="center_horizontal">
+    android:background="@color/bright"
+    android:gravity="center_horizontal"
+    android:padding="16dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="당신의 생일을 계산하세요!"
+        android:text="당신의"
         android:textColor="@color/myColor"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginTop="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:padding="10dp"
+        android:background="@color/BlueC"
+        android:textColor="@color/bright"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="분으로 계산할게요!"
+        android:textColor="@color/myColor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="클릭!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/myBlue"
+        android:backgroundTint="@color/btnColor"/>
+
 
 </LinearLayout>
