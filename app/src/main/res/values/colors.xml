@@ -13,4 +13,5 @@
     <color name="BlueC">#B7CADB</color>
     <color name="bright">#FDF6EC</color>
     <color name="btnColor">#F9CF93</color>
+    <color name="gray">#D3D3D3</color>
 </resources>
