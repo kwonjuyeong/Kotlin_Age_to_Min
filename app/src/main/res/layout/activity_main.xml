@@ -5,9 +5,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/bright"
+    android:background="@color/myBackground"
     android:gravity="center_horizontal"
-    android:padding="16dp">
+    android:padding="24dp">
 
     <TextView
         android:layout_width="wrap_content"
@@ -38,15 +38,64 @@
         android:layout_marginTop="16dp"/>
 
     <Button
-        android:id="@+id/translate"
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="클릭!"
+        android:text="꾸욱~눌러주세요"
         android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/myBlue"
         android:backgroundTint="@color/btnColor"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1997년 10월 17일"
+        android:textColor="@color/myBlue"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택된 날짜"
+        android:textColor="@color/myBlue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1400000"
+        android:textColor="@color/myBlue"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="분"
+        android:textColor="@color/myBlue"
+        android:layout_marginStart="5dp"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재까지"
+        android:textColor="@color/myBlue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
 
 </LinearLayout>
